@@ -32,7 +32,7 @@ public class BootstrapCLR implements CommandLineRunner {
                                 .map(title -> new Movie(UUID.randomUUID().toString(),title))
                                 .flatMap(movieRepository::save))
                 .subscribe(null, null, () -> {
-                    movieRepository.findAll().subscribe(System.out::println);
+                    movieRepository.findAll().subscribe(System.err::println);
                 });
     }
 }
