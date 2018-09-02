@@ -1,8 +1,6 @@
 package com.agharibi.netflux.domain;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -17,8 +15,9 @@ public class Movie {
     @NonNull
     private String title;
 
-    public Movie(String uuid, String title) {
-
+    public Movie(String id, String title) {
+        this.id = id;
+        this.title = title;
     }
 
     public String getId() {
