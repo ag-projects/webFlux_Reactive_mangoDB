@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: org.mongodb:mongodb-driver:3.6.3">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.6.3/d462fcc4640ac69b35e7cd2491e992c6bdf82862/mongodb-driver-3.6.3.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

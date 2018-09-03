@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/netflux/netflux.iml" filepath="$PROJECT_DIR$/netflux/netflux.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netflux_main.iml" filepath="$PROJECT_DIR$/.idea/modules/netflux_main.iml" group="netflux" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netflux_test.iml" filepath="$PROJECT_DIR$/.idea/modules/netflux_test.iml" group="netflux" />
+      <module fileurl="file://$PROJECT_DIR$/webFlux_Reactive_mangoDB.iml" filepath="$PROJECT_DIR$/webFlux_Reactive_mangoDB.iml" />
     </modules>
   </component>
 </project>
